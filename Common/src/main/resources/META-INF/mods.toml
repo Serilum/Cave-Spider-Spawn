@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="cavespiderspawn"
-version="1.0"
+version="1.1"
 displayName="Cave Spider Spawn"
 displayURL="https://serilum.com/mod/cave-spider-spawn"
 authors="Rick South"
@@ -23,7 +23,7 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
     modId="collective"
     type="required"
     mandatory=true
-    versionRange="[7.23,)"
+    versionRange="[7.30,)"
     ordering="NONE"
     side="BOTH"
 
