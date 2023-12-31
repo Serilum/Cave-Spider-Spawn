@@ -12,6 +12,8 @@ public class ConfigHandler extends DuskConfig {
 
 	@Entry(min = 0, max = 1.0) public static double chanceSpiderIsCaveSpider = 0.15;
 	@Entry public static boolean onlySpawnCaveSpidersBelowSurface = true;
+	@Entry public static boolean onlySpawnCaveSpidersBelowSpecificY = false;
+	@Entry(min = -1000, max = 1000) public static int belowSpecificY = 0;
 
 	public static void initConfig() {
 		configMetaData.put("chanceSpiderIsCaveSpider", Arrays.asList(
@@ -19,6 +21,12 @@ public class ConfigHandler extends DuskConfig {
 		));
 		configMetaData.put("onlySpawnCaveSpidersBelowSurface", Arrays.asList(
 			"When enabled, cave spiders will only spawn below the surface."
+		));
+		configMetaData.put("onlySpawnCaveSpidersBelowSpecificY", Arrays.asList(
+			"When enabled, cave spiders will only spawn below the specific y value set in 'belowSpecificY'."
+		));
+		configMetaData.put("belowSpecificY", Arrays.asList(
+			"The specific y value used in 'onlySpawnCaveSpidersBelowSpecificY'."
 		));
 
 		DuskConfig.init(Reference.NAME, Reference.MOD_ID, ConfigHandler.class);

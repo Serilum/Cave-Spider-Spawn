@@ -12,6 +12,6 @@ public class ModCommon {
 	}
 
 	private static void load() {
-		new SAMObject(EntityType.SPIDER, EntityType.CAVE_SPIDER, null, ConfigHandler.chanceSpiderIsCaveSpider, false, false, false, ConfigHandler.onlySpawnCaveSpidersBelowSurface);
+		new SAMObject(EntityType.SPIDER, EntityType.CAVE_SPIDER, null, ConfigHandler.chanceSpiderIsCaveSpider, false, false, false, ConfigHandler.onlySpawnCaveSpidersBelowSurface, ConfigHandler.onlySpawnCaveSpidersBelowSpecificY, ConfigHandler.belowSpecificY);
 	}
 }
