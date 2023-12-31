@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cavespiderspawn",
-  "version": "1.0",
+  "version": "1.1",
 
   "name": "Cave Spider Spawn",
   "description": "Adds a chance for cave spiders to spawn naturally instead of a spider.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "collective": ">=7.23"
+    "collective": ">=7.30"
   },
 
   "custom": {
