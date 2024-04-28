@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Cave%20Spider%20Spawn"
+logoFile="icon.png"
+
+[[mods]]
+modId="cavespiderspawn"
+version="1.1"
+displayName="Cave Spider Spawn"
+displayURL="https://serilum.com/mod/cave-spider-spawn"
+authors="Rick South"
+description='''Adds a chance for cave spiders to spawn naturally instead of a spider.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jack, Jeremy Langford, Michael W. S., pepe1191, Shana Gitnick, Tyler Behl   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.cavespiderspawn]]
+    modId="collective"
+    type="required"
+    versionRange="[7.53,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cavespiderspawn]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.5]"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config = "cavespiderspawn.mixins.json"
