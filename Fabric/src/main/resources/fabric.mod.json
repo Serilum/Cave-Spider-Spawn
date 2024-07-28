@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cavespiderspawn",
-  "version": "1.1",
+  "version": "1.2",
 
   "name": "Cave Spider Spawn",
   "description": "Adds a chance for cave spiders to spawn naturally instead of a spider.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.55"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,12 +44,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
