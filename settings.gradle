@@ -37,4 +37,6 @@ pluginManagement {
 }
 
 rootProject.name = 'Cave-Spider-Spawn-1,20,1'
-include("Common", "Fabric", "Forge")
+include("Common")
+include("Fabric")
+include("Forge")
