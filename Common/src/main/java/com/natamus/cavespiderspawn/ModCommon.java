@@ -2,7 +2,7 @@ package com.natamus.cavespiderspawn;
 
 import com.natamus.cavespiderspawn.config.ConfigHandler;
 import com.natamus.collective.objects.SAMObject;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 
 public class ModCommon {
 
@@ -12,6 +12,6 @@ public class ModCommon {
 	}
 
 	private static void load() {
-		new SAMObject(EntityType.SPIDER, EntityType.CAVE_SPIDER, null, ConfigHandler.chanceSpiderIsCaveSpider, false, false, false, ConfigHandler.onlySpawnCaveSpidersBelowSurface, ConfigHandler.onlySpawnCaveSpidersBelowSpecificY, ConfigHandler.belowSpecificY);
+		new SAMObject(EntityTypes.SPIDER, EntityTypes.CAVE_SPIDER, null, ConfigHandler.chanceSpiderIsCaveSpider, false, false, false, ConfigHandler.onlySpawnCaveSpidersBelowSurface, ConfigHandler.onlySpawnCaveSpidersBelowSpecificY, ConfigHandler.belowSpecificY);
 	}
 }
