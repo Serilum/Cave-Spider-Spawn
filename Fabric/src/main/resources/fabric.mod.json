@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
   "id": "cavespiderspawn",
-  "version": "1.2",
+  "version": "1.3",
 
   "name": "Cave Spider Spawn",
   "description": "Adds a chance for cave spiders to spawn naturally instead of a spider.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/cave-spider-spawn",
     "sources": "https://github.com/Serilum/Cave-Spider-Spawn",
     "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Cave%20Spider%20Spawn"
   },
 
-  "license": "All Right Reserved",
+  "license": "All Rights Reserved",
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.cavespiderspawn.ModFabric" ], "modmenu": [ "com.natamus.cavespiderspawn.fabric.config.IntegrateModMenu" ] },
+  "entrypoints": { "main": [ "com.serilum.cavespiderspawn.ModFabric" ], "modmenu": [ "com.serilum.cavespiderspawn.fabric.config.IntegrateModMenu" ] },
 
   "depends": {
     "fabricloader": ">=0.18.0",
     "fabric-api": "*",
     "minecraft": ">=26.2",
     "java": ">=25",
-    "collective": ">=8.29"
+    "collective": ">=8.40"
   },
 
   "custom": {
@@ -38,15 +38,14 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
+	  " AnyankaT",
 	  " aternosorg",
 	  " Cherriesaurus",
-	  " Josh",
 	  " Linda Jansen",
-	  " Michelle Smith",
 	  " MWS",
 	  " Tyler Behl"
   ]

@@ -1,6 +1,6 @@
-package com.natamus.cavespiderspawn;
+package com.serilum.cavespiderspawn;
 
-import com.natamus.cavespiderspawn.config.ConfigHandler;
+import com.serilum.cavespiderspawn.config.ConfigHandler;
 import com.natamus.collective.objects.SAMObject;
 import net.minecraft.world.entity.EntityTypes;
 

@@ -1,9 +1,9 @@
-package com.natamus.cavespiderspawn;
+package com.serilum.cavespiderspawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.cavespiderspawn.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.cavespiderspawn.util.Reference;
+import com.serilum.cavespiderspawn.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.cavespiderspawn.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;

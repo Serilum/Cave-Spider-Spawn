@@ -1,7 +1,7 @@
-package com.natamus.cavespiderspawn.config;
+package com.serilum.cavespiderspawn.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.cavespiderspawn.util.Reference;
+import com.serilum.cavespiderspawn.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
