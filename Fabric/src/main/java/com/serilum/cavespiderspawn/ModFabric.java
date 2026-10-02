@@ -1,8 +1,8 @@
-package com.natamus.cavespiderspawn;
+package com.serilum.cavespiderspawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.cavespiderspawn.util.Reference;
+import com.serilum.cavespiderspawn.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {
