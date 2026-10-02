@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.cavespiderspawn.mixin",
+  "package": "com.serilum.cavespiderspawn.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
 
