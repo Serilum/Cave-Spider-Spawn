@@ -16,6 +16,8 @@ public class ModCommon {
 
 	private static void load() {
 		samObject = new SAMObject(EntityType.SPIDER, EntityType.CAVE_SPIDER, null, ConfigHandler.chanceSpiderIsCaveSpider, false, false, false, ConfigHandler.onlySpawnCaveSpidersBelowSurface, ConfigHandler.onlySpawnCaveSpidersBelowSpecificY, ConfigHandler.belowSpecificY);
+		samObject.dimensionIds = ConfigHandler.dimensionsToSpawnIn;
+		samObject.biomeIds = ConfigHandler.biomesToSpawnIn;
 
 		ConfigCallback.CONFIG_CHANGED.register((String modid) -> {
 			if (!modid.equals(Reference.MOD_ID)) {
@@ -26,6 +28,8 @@ public class ModCommon {
 			samObject.onlyBelowSurface = ConfigHandler.onlySpawnCaveSpidersBelowSurface;
 			samObject.onlyBelowSpecificY = ConfigHandler.onlySpawnCaveSpidersBelowSpecificY;
 			samObject.specificY = ConfigHandler.belowSpecificY;
+			samObject.dimensionIds = ConfigHandler.dimensionsToSpawnIn;
+			samObject.biomeIds = ConfigHandler.biomesToSpawnIn;
 		});
 	}
 }

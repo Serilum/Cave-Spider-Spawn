@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="cavespiderspawn"
-version="1.4"
+version="1.5"
 displayName="Cave Spider Spawn"
 displayURL="https://serilum.com/mod/cave-spider-spawn"
 authors="Serilum"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate Apprec
 [[dependencies.cavespiderspawn]]
     modId="collective"
     mandatory=true
-    versionRange="[8.57,)"
+    versionRange="[8.59,)"
     ordering="NONE"
     side="BOTH"
 
