@@ -14,6 +14,8 @@ public class ConfigHandler extends DuskConfig {
 	@Entry public static boolean onlySpawnCaveSpidersBelowSurface = true;
 	@Entry public static boolean onlySpawnCaveSpidersBelowSpecificY = false;
 	@Entry(min = -1000, max = 1000) public static int belowSpecificY = 0;
+	@Entry(registry = "dimension") public static String dimensionsToSpawnIn = "";
+	@Entry(registry = "worldgen/biome") public static String biomesToSpawnIn = "";
 
 	public static void initConfig() {
 		configMetaData.put("chanceSpiderIsCaveSpider", Arrays.asList(
@@ -27,6 +29,12 @@ public class ConfigHandler extends DuskConfig {
 		));
 		configMetaData.put("belowSpecificY", Arrays.asList(
 			"The specific y value used in 'onlySpawnCaveSpidersBelowSpecificY'."
+		));
+		configMetaData.put("dimensionsToSpawnIn", Arrays.asList(
+			"Dimensions in which spiders can turn into cave spiders, separated by a comma. Leave empty for every dimension. For example: 'minecraft:overworld,minecraft:the_nether'."
+		));
+		configMetaData.put("biomesToSpawnIn", Arrays.asList(
+			"Biomes in which spiders can turn into cave spiders, separated by a comma. Biome tags work too, starting with a '#'. Leave empty for every biome. For example: 'minecraft:dripstone_caves,minecraft:lush_caves'."
 		));
 
 		DuskConfig.init(Reference.NAME, Reference.MOD_ID, ConfigHandler.class);
